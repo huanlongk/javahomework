@@ -1,0 +1,12 @@
+CREATE DATABASE school
+USE school
+CREATE TABLE class(
+class_id INT PRIMARY KEY ,
+studentnum VARCHAR(10),
+class_time TIME 
+)ENGINE=INNODB DEFAULT CHARSET=utf8; 
+CREATE TABLE student(
+stu_id INT PRIMARY KEY ,
+stu_name VARCHAR(10),
+stusex VARCHAR(10)
+)ENGINE=INNODB DEFAULT CHARSET=utf8;
